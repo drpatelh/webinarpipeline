@@ -1,0 +1,14 @@
+Changes in module 'nf-core/fastp'
+--- modules/nf-core/fastp/main.nf
++++ modules/nf-core/fastp/main.nf
+@@ -10,7 +10,7 @@
+     input:
+     tuple val(meta), path(reads)
+     path  adapter_fasta
+-    val   save_trimmed_fail
++    val  save_trimmed_fail
+     val   save_merged
+ 
+     output:
+
+************************************************************
