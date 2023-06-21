@@ -1,0 +1,28 @@
+repository_type: pipeline
+lint:
+  files_exist:
+  - CODE_OF_CONDUCT.md
+  - assets/nf-core-webinarpipeline_logo_light.png
+  - docs/images/nf-core-webinarpipeline_logo_light.png
+  - docs/images/nf-core-webinarpipeline_logo_dark.png
+  - .github/ISSUE_TEMPLATE/config.yml
+  - .github/workflows/awstest.yml
+  - .github/workflows/awsfulltest.yml
+  - conf/igenomes.config
+  files_unchanged:
+  - CODE_OF_CONDUCT.md
+  - assets/nf-core-webinarpipeline_logo_light.png
+  - docs/images/nf-core-webinarpipeline_logo_light.png
+  - docs/images/nf-core-webinarpipeline_logo_dark.png
+  - .github/ISSUE_TEMPLATE/bug_report.yml
+  nextflow_config:
+  - manifest.name
+  - manifest.homePage
+  - process.cpus
+  - process.memory
+  - process.time
+  - custom_config
+  multiqc_config:
+  - report_comment
+  readme:
+  - nextflow_badge

@@ -1,0 +1,5 @@
+prefix: seqeralabs
+skip:
+- github_badges
+- igenomes
+- nf_core_configs
